@@ -2,10 +2,8 @@
 //  smscsimulator.cpp
 //  SMPPLib
 //
-//  Created by Mark Hay on 12/05/2019.
-//  Copyright © 2019 Melrose Labs. All rights reserved.
+//  Updated by Y2kz 2025/03/03
 //
-
 // Build: g++ -std=c++11 smscsimulator.cpp -o MLSMSCSimulator && ./MLSMSCSimulator
 
 #include <stdio.h>
@@ -1225,7 +1223,7 @@ int main(int argc, const char * argv[])
     
     //
     
-    int portSMPP = 2775;
+    int portSMPP = 10000;
     
     int listensockfdSMPP = dolisten(portSMPP);
     
